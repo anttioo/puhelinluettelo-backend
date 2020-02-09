@@ -1,0 +1,13 @@
+### DELETE request
+DELETE http://localhost:3001/api/persons/1
+
+### Send POST request with json body
+POST http://localhost:3001/api/persons/
+Content-Type: application/json
+
+{
+  "name": "Testi Ukkeli",
+  "number": "010 123456"
+}
+
+###
