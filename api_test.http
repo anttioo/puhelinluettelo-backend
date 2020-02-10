@@ -11,3 +11,21 @@ Content-Type: application/json
 }
 
 ###
+PUT http://localhost:3001/api/persons/5e40aef093db603bfa4d09c0
+Content-Type: application/json
+
+{
+  "name": "Antti",
+  "number": "23023452345"
+}
+
+###
+POST http://localhost:3001/api/persons/
+Content-Type: application/json
+
+{
+  "name": "Antti",
+  "number": "23023452345"
+}
+
+###
