@@ -7,7 +7,8 @@
     "start": "node index.js",
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:ui": "rm -rf build && cd ../fullstack-hy2020/Osa2/puhelinluettelo/ && npm run build --dev && mv build ../../../puhelinluettelo-backend/"
+    "build:ui": "rm -rf build && cd ../fullstack-hy2020/Osa2/puhelinluettelo/ && npm run build --prod && mv build ../../../puhelinluettelo-backend/",
+    "lint": "eslint ."
   },
   "author": "",
   "license": "ISC",
@@ -20,6 +21,8 @@
     "morgan": "^1.9.1"
   },
   "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
     "nodemon": "^2.0.2"
   }
 }
